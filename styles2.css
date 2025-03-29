@@ -1,0 +1,122 @@
+/* styles2.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0d4c3;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.login-button a {
+    color: #2c3e50;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login-button a:hover {
+    background-color: #ecf0f1;
+}
+
+.intro {
+    text-align: center;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #34495e;
+}
+
+.blogs {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+article {
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+article img {
+    width: 50%; /* Images will take full width of the container */
+    height: auto; /* Maintains original aspect ratio */
+    max-width: 200px; /* Restricts maximum width to 500px */
+    display: block; /* Ensures images are block-level elements */
+    margin: 0 auto; /* Centers the images horizontally */
+    border-radius: 8px; /* Adds rounded corners for a polished look */
+}
+
+article p {
+    font-size: 1rem;
+    color: #34495e;
+    text-align: justify; /* Aligns text for better readability */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 2rem;
+}
